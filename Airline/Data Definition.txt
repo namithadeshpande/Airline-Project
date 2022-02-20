@@ -1,0 +1,18 @@
+Delayed minutes columns
+	arr_delay =  carrier_delay + weather_delay + nas_delay + security_delay + late_aircraft_delay
+	carrier_delay
+	weather_delay
+	nas_delay
+	security_delay
+	late_aircraft_delay
+
+
+arr_flights - Total number of operations
+arr_del15 = carrier_ct +  weather_ct + nas_ct + security_ct + late_aircraft_ct
+carrier_ct - Air carrier delay count
+weather_ct - Weather delay count
+nas_ct - National Aviation System Delay count
+security_ct - Security delay count
+late_aircraft_ct - Aurcraft arriving late count
+arr_cancelled - Cancelled count
+arr_diverted - Diverted count
